@@ -14,7 +14,9 @@ function App() {
      <Saludo persona = 'Alex' edad={33}/>
      <hr/>
      <h3>cajita de comentarios</h3>
-       <Comentario/>
+       <Comentario urlImage="https://picsum.photos/200" persona="Ignacio" texto="ignacio es ciclista"/>
+       <Comentario urlImage="https://picsum.photos/200" persona="Pepe" texto="pepe es ciclista"/>
+       <Comentario urlImage="https://picsum.photos/200" persona="Alex" texto="alex es ciclista"/>
      
     </div>
   );

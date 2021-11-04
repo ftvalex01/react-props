@@ -1,12 +1,13 @@
 import React from 'react'
+import Imagen from './Imagen'
 
-const Comentario = () => {
+const Comentario = (props) => {
     return (
         <div className="media">
-            <img src="https://picsum.photos/200" className="mr-3" alt=""/>
+            <Imagen urlImage={props.urlImage}/>
             <div className="media-body">
-                <h5 className="mt-0">Nombre</h5>
-                <p>lorem impsum dolor</p>
+                <h5 className="mt-0">{props.persona}</h5>
+                <p>{props.texto}</p>
             </div>
         </div>
     )
